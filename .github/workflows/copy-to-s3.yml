@@ -26,4 +26,4 @@ jobs:
 
       - name: Sync with S3 Bucket
         run: |
-          aws s3 sync . s3:::teradata2csw-bucket
+          aws s3 sync . s3://teradata2csw-bucket
